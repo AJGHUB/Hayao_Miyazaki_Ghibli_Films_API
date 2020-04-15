@@ -1,0 +1,22 @@
+.flex-grid {
+  display: flex;
+}
+.main-col {
+  flex: 1;
+}  
+
+.side-col {
+  flex: 0.5;
+}
+
+header {
+text-align: center;
+}
+
+ul {
+list-style: none;
+}
+
+.body{
+  background-image: "./images/background.jpg";
+}

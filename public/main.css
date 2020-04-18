@@ -1,22 +1,75 @@
 .flex-grid {
   display: flex;
+  font-family: 'Dosis', sans-serif;
+  background-image: url("./StarfallLake.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  
 }
+
+.body {
+  
+}
+
 .main-col {
+  font-family: 'Dosis', sans-serif;
   flex: 1;
-}  
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 25px;
+  width: 5%;
+  margin-left: 10%;
+  margin-right: 5%;
+  animation-name: details;
+  animation-duration: 8s;
+}
+
+@keyframes details {
+  0%   {background-color:blue;}
+  5%   {background-color:green;}
+  10%  {background-color: lime;}
+  25%  {background-color: yellow;}
+  50%  {background-color: lime;}
+  65%  {background-color: green;}
+  70% {background-color: blue;}
+  100% {background-color: white;}
+}
+  
 
 .side-col {
+  font-family: 'Dosis', sans-serif;
   flex: 0.5;
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 25px;
+  margin-left: 5%;
+  width: 20%;
+  animation-name: film;
+  animation-duration: 8s;
 }
 
+@keyframes film {
+  0%   {background-color:blue;}
+  5%   {background-color:green;}
+  10%  {background-color: lime;}
+  25%  {background-color: yellow;}
+  50%  {background-color: orange;}
+  65%  {background-color: red;}
+  70% {background-color: darkred;}
+  100% {background-color: white;}
+}
+
+
+
 header {
-text-align: center;
+  text-align: center;
 }
 
 ul {
 list-style: none;
 }
 
-.body{
-  background-image: "./images/background.jpg";
+.filmName {
+  font-size: medium;
+
 }

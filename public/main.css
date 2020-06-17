@@ -3,7 +3,9 @@
   font-family: 'Dosis', sans-serif;
   background-image: url("./StarfallLake.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  
   
 }
 
@@ -63,13 +65,26 @@
 
 header {
   text-align: center;
+  font-size: larger;
+  /* background-color: #5263b8;
+background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); */
+background-color: rgba(31, 148, 194, 0.774);
+background-image: url("https://www.transparenttextures.com/patterns/washi.png");
+border-radius: 10px;
+border-style: groove;
 }
 
-ul {
+ol {
 list-style: none;
 }
 
 .filmName {
   font-size: medium;
+  padding: 10px;
+}
 
+
+img {
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 25px;
 }

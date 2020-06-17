@@ -6,3 +6,5 @@
 <br>
 <h3> React API boiler plate forked from Enspiral Dev Academy </h3>
 
+npm run start 
+npm run dev 

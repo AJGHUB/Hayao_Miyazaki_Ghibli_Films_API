@@ -31,7 +31,7 @@ class App extends React.Component {
         <h1>Hayao Miyazaki</h1>
         <img src="/Studio_Ghibli_logo.svg" />
       </header>
-      <body>
+      <div>
         <main className="flex-grid">
             <aside className="side-col">
               <h1>Studio Ghibli Films</h1>
@@ -46,7 +46,7 @@ class App extends React.Component {
                 <Description {...props} data={this.state.ghibli} />)}/>
             </section>
         </main> 
-      </body>
+      </div>
       </>
       </Router>
     )

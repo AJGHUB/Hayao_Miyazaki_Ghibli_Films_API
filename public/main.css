@@ -5,13 +5,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  
-  
+
+
 }
 
-.body {
-  
-}
+.body {}
 
 .main-col {
   font-family: 'Dosis', sans-serif;
@@ -27,16 +25,39 @@
 }
 
 @keyframes details {
-  0%   {background-color:blue;}
-  5%   {background-color:green;}
-  10%  {background-color: lime;}
-  25%  {background-color: yellow;}
-  50%  {background-color: lime;}
-  65%  {background-color: green;}
-  70% {background-color: blue;}
-  100% {background-color: white;}
+  0% {
+    background-color: blue;
+  }
+
+  5% {
+    background-color: green;
+  }
+
+  10% {
+    background-color: lime;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: lime;
+  }
+
+  65% {
+    background-color: green;
+  }
+
+  70% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: white;
+  }
 }
-  
+
 
 .side-col {
   font-family: 'Dosis', sans-serif;
@@ -51,14 +72,37 @@
 }
 
 @keyframes film {
-  0%   {background-color:blue;}
-  5%   {background-color:green;}
-  10%  {background-color: lime;}
-  25%  {background-color: yellow;}
-  50%  {background-color: orange;}
-  65%  {background-color: red;}
-  70% {background-color: darkred;}
-  100% {background-color: white;}
+  0% {
+    background-color: blue;
+  }
+
+  5% {
+    background-color: green;
+  }
+
+  10% {
+    background-color: lime;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  65% {
+    background-color: red;
+  }
+
+  70% {
+    background-color: darkred;
+  }
+
+  100% {
+    background-color: white;
+  }
 }
 
 
@@ -68,14 +112,19 @@ header {
   font-size: larger;
   /* background-color: #5263b8;
 background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); */
-background-color: rgba(31, 148, 194, 0.774);
-background-image: url("https://www.transparenttextures.com/patterns/washi.png");
-border-radius: 10px;
-border-style: groove;
+  background-color: rgba(31, 148, 194, 0.774);
+  background-image: url("https://www.transparenttextures.com/patterns/washi.png");
+  border-radius: 10px;
+  border-style: groove;
 }
 
+/*__________________________________________________NAV_____________*/
+
+
+
+/*____________________________________________________Movie List____*/
 ol {
-list-style: none;
+  list-style: none;
 }
 
 .filmName {

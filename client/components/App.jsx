@@ -29,3 +29,9 @@ class App extends React.Component {
 }
 
 export default App
+
+//TODO LINKS
+//http://www.ghibli.jp/
+//http://www.ghibli-museum.jp/en/
+//https://ghibli.fandom.com/wiki/Ghibli_Wiki
+//https://gkids.com/films/

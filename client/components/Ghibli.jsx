@@ -8,7 +8,7 @@ class Ghibli extends React.Component {
     
     return (
       <div className="filmName">
-         <li><Link to={`/description/${ghibli.id}`}>{ghibli.title}</Link></li>
+         <li><Link to={`/movie/description/${ghibli.id}`}>{ghibli.title}</Link></li>
       </div>
     )
   }

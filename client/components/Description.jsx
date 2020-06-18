@@ -124,7 +124,7 @@ class Description extends React.Component {
         <h2>Ghibli Movie Description</h2>
         <p>{ movieData.description }</p>
         <h2>Movie Trailer</h2>
-        <iframe width="560" height="315" src={src} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src={src} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
       </>
     )

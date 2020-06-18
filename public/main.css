@@ -5,8 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-
-
+  justify-content: space-around;
 }
 
 .body {}
@@ -23,6 +22,40 @@
   animation-name: details;
   animation-duration: 8s;
 }
+
+/* ___________________Landing Page_________________ */
+
+.landing-col-1 {
+  flex: 1;
+  width: 50px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 5rem;
+  border-radius: 10px;
+  border-style: groove;
+  background-color: aqua;
+}
+
+.landing-col-2 {
+  flex: 1;
+  width: 50px;
+  margin: 5rem;
+  border-radius: 10px;
+  border-style: groove;
+  background-color: aqua;
+}
+
+.landing-col-3 {
+  flex: 1;
+  width: 50px;
+  margin: 5rem;
+  border-radius: 10px;
+  border-style: groove;
+  background-color: aqua;
+}
+
+
+
 
 @keyframes details {
   0% {
@@ -138,8 +171,3 @@ img {
   border-radius: 25px;
 }
 
-/* ___________________Landing Page_________________ */
-
-.landing-col {
-  flex: 1;
-}

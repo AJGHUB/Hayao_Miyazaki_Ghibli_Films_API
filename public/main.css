@@ -143,3 +143,27 @@ img {
 .landing-col {
   flex: 1;
 }
+
+
+
+
+/* _________________Download Page ______________ */
+.download-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.download-container div {
+  display: block;
+  width: 20rem;
+  height: 20rem;
+  margin: 0.5rem;
+}
+
+.download-container div a img {
+  width: 100%;
+  height: auto;
+  border: solid;
+  border-color: white;
+}

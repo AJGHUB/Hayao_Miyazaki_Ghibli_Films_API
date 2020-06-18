@@ -11,10 +11,16 @@ render() {
     return (
         <>
           <div className='landing-col-1'>
+            
+          </div>
+          <div className='landing-col-2'>
+            <Link to='/download'>Ghibli Wallpapers to Download</Link>
+          </div>
+      
+          <div className='landing-col-3'>
             <Link to='/movie'>Ghibli Movies</Link>
           </div>
-          <div className='landing-col-2'>.</div>
-          <div className='landing-col-3'>.</div>
+
         </>
     )
   }

@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import { getGhibliFilm } from '../apis/ghibli'
 import Ghibli from './Ghibli'
 import Description from './Description'
+import MovieGif from './MovieGif'
 
 
 class Movie extends React.Component {
@@ -37,7 +38,8 @@ class Movie extends React.Component {
                 </ul>
             </aside>
             <section className="main-col">
-                <Route path='/description/:id' render={(props) => (
+                <Route exact path='/movie' component={MovieGif}/>
+                <Route path='/movie/description/:id' render={(props) => (
                 <Description {...props} data={this.state.ghibli} />)}/>
             </section>
         </>

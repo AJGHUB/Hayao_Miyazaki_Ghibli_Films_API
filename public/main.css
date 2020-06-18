@@ -137,3 +137,9 @@ img {
   background-color: rgba(255, 255, 255, 0.267);
   border-radius: 25px;
 }
+
+/* ___________________Landing Page_________________ */
+
+.landing-col {
+  flex: 1;
+}

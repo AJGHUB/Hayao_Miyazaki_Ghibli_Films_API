@@ -17,8 +17,8 @@ class App extends React.Component {
 
       <div>
         <main className="flex-grid">
-        <Route exact path="/" component={ Landing }/>
-        <Route path="/movie" component={ Movie }/>
+          <Route exact path="/" component={ Landing }/>
+          <Route path="/movie" component={ Movie }/>
         </main> 
       </div>
       </Router>

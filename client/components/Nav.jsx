@@ -10,20 +10,20 @@ export const Navbar = () => {
       <nav className='navbar'>
         <h1>
           <a href='index.html'>
-            <i className='fas fa-code'></i>Ghibli Magic!
+            <i className='home'></i>
           </a>
         </h1>
-        <ul>
-          <li>
+        <ol className='nav-list'>
+          <li className='nav-words'>
             <Link to='/movie'>Movies</Link>
           </li>
-          <li>
+          <li className='nav-words'>
             <Link to='/download'>Wallpapers</Link>
           </li>
-          <li>
+          <li className='nav-words'>
             <Link to='/fan'>Ghibli Fans</Link>
           </li>
-        </ul>
+        </ol>
       </nav>
     </>
   );

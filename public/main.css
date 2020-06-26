@@ -55,40 +55,15 @@
 }
 
 
-
-
 @keyframes details {
-  0% {
-    background-color: blue;
-  }
-
-  5% {
-    background-color: green;
-  }
-
-  10% {
-    background-color: lime;
-  }
-
-  25% {
-    background-color: yellow;
-  }
-
-  50% {
-    background-color: lime;
-  }
-
-  65% {
-    background-color: green;
-  }
-
-  70% {
-    background-color: blue;
-  }
-
-  100% {
-    background-color: white;
-  }
+  0% {background-color: blue;}
+  5% {background-color: green;}
+  10% {background-color: lime;}
+  25% {background-color: yellow;}
+  50% {background-color: lime;}
+  65% {background-color: green;}
+  70% {background-color: blue;}
+  100% {background-color: white;}
 }
 
 
@@ -105,46 +80,20 @@
 }
 
 @keyframes film {
-  0% {
-    background-color: blue;
-  }
-
-  5% {
-    background-color: green;
-  }
-
-  10% {
-    background-color: lime;
-  }
-
-  25% {
-    background-color: yellow;
-  }
-
-  50% {
-    background-color: orange;
-  }
-
-  65% {
-    background-color: red;
-  }
-
-  70% {
-    background-color: darkred;
-  }
-
-  100% {
-    background-color: white;
-  }
+  0% {background-color: blue;}
+  5% {background-color: green;}
+  10% {background-color: lime;}
+  25% {background-color: yellow;}
+  50% {background-color: orange;}
+  65% {background-color: red;}
+  70% {background-color: darkred;}
+  100% {background-color: white;}
 }
-
-
 
 header {
   text-align: center;
   font-size: larger;
-  /* background-color: #5263b8;
-background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); */
+  /* background-color: #5263b8;*/
   background-color: rgba(31, 148, 194, 0.774);
   background-image: url("https://www.transparenttextures.com/patterns/washi.png");
   border-radius: 10px;
@@ -154,10 +103,39 @@ background-image: url("https://www.transparenttextures.com/patterns/skulls.png")
 /*__________________________________________________NAV_____________*/
 
 
+nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li nav-words {
+  float: left;
+  display: block;
+  padding: 30px;
+  background-color: #dddddd;
+}
+
+.navbar {
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 0.7rem 2rem;
+   z-index: 1;
+   background-color: peachpuff;
+   background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); 
+   top: 0;
+   border: solid 5px;
+   border-color: plum;
+   opacity: 0.9;
+   border-radius: .5em;
+}
 
 /*____________________________________________________Movie List____*/
+
 ol {
-  list-style: none;
+  
 }
 
 .filmName {
@@ -172,7 +150,8 @@ img {
 }
 
 
-/* _________________Download Page ______________ */
+/* __________________________________________Download Page ______________ */
+
 .download-container {
   display: flex;
   flex-wrap: wrap;
@@ -193,12 +172,4 @@ img {
   border-color: white;
 }
 
-gif {
-  frameBorder='0' 
-  scrolling='no' 
-  width='100%';
-  height:'100%'; 
-  style='position:absolute;
-  top:0;
-  left:0;
-}
+

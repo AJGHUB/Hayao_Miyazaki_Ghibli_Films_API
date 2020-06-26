@@ -5,25 +5,32 @@ export const Navbar = () => {
   return (
     <>
       <header>
-        <h1> Hayao Miyazaki </h1> <img src='/Studio_Ghibli_logo.svg' />
+        <h1> Hayao Miyazaki </h1>{' '}
+        <img className='logo' src='/Studio_Ghibli_logo.svg' />
       </header>
       <nav className='navbar'>
+        {' '}
+        <img className='home-icon' src='/images/home-icon.png' />
         <h1>
           <a href='index.html'>
             <i className='home'></i>
           </a>
         </h1>
-        <ol className='nav-list'>
-          <li className='nav-words'>
-            <Link to='/movie'>Movies</Link>
-          </li>
-          <li className='nav-words'>
-            <Link to='/download'>Wallpapers</Link>
-          </li>
-          <li className='nav-words'>
-            <Link to='/fan'>Ghibli Fans</Link>
-          </li>
-        </ol>
+        <table className='list'>
+          <thead>
+            <tr className='list-item'>
+              <td>
+                <Link to='/movie'>Movies</Link>
+              </td>
+              <td>
+                <Link to='/download'>Wallpapers</Link>
+              </td>
+              <td>
+                <Link to='/fan'>Ghibli Fans</Link>
+              </td>
+            </tr>
+          </thead>
+        </table>
       </nav>
     </>
   );

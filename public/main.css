@@ -1,7 +1,7 @@
 .flex-grid {
   display: flex;
   font-family: 'Dosis', sans-serif;
-  background-image: url("./StarfallLake.jpg");
+  background-image: url('./StarfallLake.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -54,18 +54,32 @@
   background-color: aqua;
 }
 
-
 @keyframes details {
-  0% {background-color: blue;}
-  5% {background-color: green;}
-  10% {background-color: lime;}
-  25% {background-color: yellow;}
-  50% {background-color: lime;}
-  65% {background-color: green;}
-  70% {background-color: blue;}
-  100% {background-color: white;}
+  0% {
+    background-color: blue;
+  }
+  5% {
+    background-color: green;
+  }
+  10% {
+    background-color: lime;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: lime;
+  }
+  65% {
+    background-color: green;
+  }
+  70% {
+    background-color: blue;
+  }
+  100% {
+    background-color: white;
+  }
 }
-
 
 .side-col {
   font-family: 'Dosis', sans-serif;
@@ -80,14 +94,30 @@
 }
 
 @keyframes film {
-  0% {background-color: blue;}
-  5% {background-color: green;}
-  10% {background-color: lime;}
-  25% {background-color: yellow;}
-  50% {background-color: orange;}
-  65% {background-color: red;}
-  70% {background-color: darkred;}
-  100% {background-color: white;}
+  0% {
+    background-color: blue;
+  }
+  5% {
+    background-color: green;
+  }
+  10% {
+    background-color: lime;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: orange;
+  }
+  65% {
+    background-color: red;
+  }
+  70% {
+    background-color: darkred;
+  }
+  100% {
+    background-color: white;
+  }
 }
 
 header {
@@ -95,47 +125,56 @@ header {
   font-size: larger;
   /* background-color: #5263b8;*/
   background-color: rgba(31, 148, 194, 0.774);
-  background-image: url("https://www.transparenttextures.com/patterns/washi.png");
+  background-image: url('https://www.transparenttextures.com/patterns/washi.png');
   border-radius: 10px;
   border-style: groove;
 }
 
 /*__________________________________________________NAV_____________*/
 
-
-nav-list {
-  list-style-type: none;
+.list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-li nav-words {
+.list-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   float: left;
-  display: block;
   padding: 30px;
-  background-color: #dddddd;
+}
+
+.list-item td {
+  padding: 0 20px 0 20px;
+  display: flex;
 }
 
 .navbar {
-   display: flex; 
-   justify-content: space-between; 
-   align-items: center; 
-   padding: 0.7rem 2rem;
-   z-index: 1;
-   background-color: peachpuff;
-   background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); 
-   top: 0;
-   border: solid 5px;
-   border-color: plum;
-   opacity: 0.9;
-   border-radius: .5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  background-color: peachpuff;
+  background-image: url('https://www.transparenttextures.com/patterns/skulls.png');
+  top: 0;
+  border: solid 5px;
+  border-color: plum;
+  opacity: 0.9;
+  border-radius: 0.5em;
 }
 
+.home-icon {
+  width: 50px;
+  height: 50px;
+}
 /*____________________________________________________Movie List____*/
 
-ol {
-  
+ul {
 }
 
 .filmName {
@@ -143,12 +182,10 @@ ol {
   padding: 10px;
 }
 
-
 img {
   background-color: rgba(255, 255, 255, 0.267);
   border-radius: 25px;
 }
-
 
 /* __________________________________________Download Page ______________ */
 
@@ -171,5 +208,21 @@ img {
   border: solid;
   border-color: white;
 }
+
+/* _______________Main Col styling______________*/
+
+.main-col {
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 

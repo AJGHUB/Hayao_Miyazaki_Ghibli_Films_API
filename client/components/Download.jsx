@@ -38,9 +38,14 @@ class Download extends React.Component {
 
   render(){
     return (
-      <div className="download-container">
-        {this.state.images.map(anImage => <DownloadItem details={anImage}/>)}
-      </div>
+      <>
+        <div className="instruction">
+          this is how you do
+        </div>
+        <div className="download-container">
+          {this.state.images.map(anImage => <DownloadItem details={anImage}/>)}
+        </div>
+      </>
     )
   }
 }

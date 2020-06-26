@@ -10,7 +10,7 @@ export const Navbar = () => {
       </header>
       <nav className='navbar'>
         {' '}
-        <img className='home-icon' src='/images/home-icon.png' />
+        <Link to="/"><img className='home-icon' src='/images/home-icon.png' /></Link>
         <h1>
           <a href='index.html'>
             <i className='home'></i>
@@ -25,9 +25,9 @@ export const Navbar = () => {
               <td>
                 <Link to='/download'>Wallpapers</Link>
               </td>
-              <td>
+              {/* <td>
                 <Link to='/fan'>Ghibli Fans</Link>
-              </td>
+              </td> */}
             </tr>
           </thead>
         </table>

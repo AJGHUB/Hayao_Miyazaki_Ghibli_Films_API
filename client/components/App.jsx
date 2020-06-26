@@ -4,7 +4,6 @@ import Landing from './Landing';
 import Movie from './Movie';
 import Download from './Download';
 import Nav from './Nav';
-import Fan from './Fan';
 
 
 class App extends React.Component {
@@ -15,7 +14,6 @@ class App extends React.Component {
         <Route exact path='/' component={Landing} />
         <Route path='/movie' component={Movie} />
         <Route path='/download' component={Download} />
-        <Route path='/fan' component={Fan} />
       </Router>
     );
   }

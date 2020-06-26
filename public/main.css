@@ -1,5 +1,6 @@
 body {
-  cursor: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54da91e0-f7ed-4d0f-a829-9a76dfa376c4/d968uqu-6a5e5268-0593-4afc-b46c-3b6344204db9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTRkYTkxZTAtZjdlZC00ZDBmLWE4MjktOWE3NmRmYTM3NmM0XC9kOTY4dXF1LTZhNWU1MjY4LTA1OTMtNGFmYy1iNDZjLTNiNjM0NDIwNGRiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.dhfbDyoqZP1Hbky2IQBRyfZkhrJTaiRxZj1eY4Z5XTE"), auto;
+  cursor: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54da91e0-f7ed-4d0f-a829-9a76dfa376c4/d968uqu-6a5e5268-0593-4afc-b46c-3b6344204db9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTRkYTkxZTAtZjdlZC00ZDBmLWE4MjktOWE3NmRmYTM3NmM0XC9kOTY4dXF1LTZhNWU1MjY4LTA1OTMtNGFmYy1iNDZjLTNiNjM0NDIwNGRiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.dhfbDyoqZP1Hbky2IQBRyfZkhrJTaiRxZj1eY4Z5XTE'),
+    auto;
 }
 
 .flex-grid {
@@ -11,7 +12,6 @@ body {
   width: 100%;
   justify-content: space-around;
 }
-
 
 .main-col {
   font-family: 'Dosis', sans-serif;
@@ -36,14 +36,14 @@ body {
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #F0FFFF;
+  background-color: #f0ffff;
   animation-name: col;
   animation-duration: 8s;
 }
 
 .ghibli-totoro {
- height: 80px;
- width: 80px;
+  height: 80px;
+  width: 80px;
 }
 
 .landing-col-2 {
@@ -53,7 +53,7 @@ body {
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #F0FFFF;
+  background-color: #f0ffff;
   animation-name: col;
   animation-duration: 8s;
 }
@@ -65,38 +65,37 @@ body {
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #F0FFFF;
+  background-color: #f0ffff;
   animation-name: col;
   animation-duration: 8s;
 }
 
 @keyframes col {
-    0% {
-      background-color: #FFFFFF;
-    }
-    5% {
-      background-color: #FFFAFA;
-    }
-    10% {
-      background-color: #F0FFF0;
-    }
-    25% {
-      background-color: #F5FFFA;
-    }
-    50% {
-      background-color: #F0FFFF;
-    }
-    65% {
-      background-color: #FFF0F5;
-    }
-    70% {
-      background-color:	#F8F8FF;
-    }
-    100% {
-      background-color: #FFF5EE;
-    }
+  0% {
+    background-color: #ffffff;
+  }
+  5% {
+    background-color: #fffafa;
+  }
+  10% {
+    background-color: #f0fff0;
+  }
+  25% {
+    background-color: #f5fffa;
+  }
+  50% {
+    background-color: #f0ffff;
+  }
+  65% {
+    background-color: #fff0f5;
+  }
+  70% {
+    background-color: #f8f8ff;
+  }
+  100% {
+    background-color: #fff5ee;
+  }
 }
-
 
 /* ___________________Movie Page_________________ */
 
@@ -135,7 +134,7 @@ body {
   background-image: url('https://www.transparenttextures.com/patterns/washi.png');
 }
 
-.film-heading{
+.film-heading {
   font-size: 2.5em;
   color: rgba(2, 63, 63, 0.712);
   margin-left: 50px;
@@ -194,8 +193,8 @@ header {
 }
 
 .heading1 {
- font-family: 'Dosis', sans-serif;
- margin-left: 30px;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 30px;
 }
 
 .gif-movie {
@@ -207,8 +206,7 @@ header {
 .heading2 {
   font-family: 'Dosis', sans-serif;
   margin-left: 30px;
- }
-
+}
 
 /*_____________________NAV_____________*/
 
@@ -265,9 +263,8 @@ ul {
   font-size: medium;
   padding: 10px;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;  
-  }
-
+  font-size: 1.5em;
+}
 
 img {
   background-color: rgba(255, 255, 255, 0.267);
@@ -278,7 +275,7 @@ img {
   padding: 100px 30px 0px 30px;
 }
 
-.trailer{
+.trailer {
   border: solid darkblue 1em;
   border-radius: 1rem;
   border-style: inset;
@@ -290,7 +287,6 @@ img {
 }
 
 .ghibli-movie {
-
 }
 /* __________________________Download Page ______________ */
 
@@ -306,30 +302,30 @@ img {
 }
 
 @keyframes wallpaper {
-    0% {
-      background-color: #FFFFFF;
-    }
-    5% {
-      background-color: #FFFAFA;
-    }
-    10% {
-      background-color: #F0FFF0;
-    }
-    25% {
-      background-color: #F5FFFA;
-    }
-    50% {
-      background-color: #F0FFFF;
-    }
-    65% {
-      background-color: #FFF0F5;
-    }
-    70% {
-      background-color:	#F8F8FF;
-    }
-    100% {
-      background-color: #FFF5EE;
-    }
+  0% {
+    background-color: #ffffff;
+  }
+  5% {
+    background-color: #fffafa;
+  }
+  10% {
+    background-color: #f0fff0;
+  }
+  25% {
+    background-color: #f5fffa;
+  }
+  50% {
+    background-color: #f0ffff;
+  }
+  65% {
+    background-color: #fff0f5;
+  }
+  70% {
+    background-color: #f8f8ff;
+  }
+  100% {
+    background-color: #fff5ee;
+  }
 }
 
 .download-container div {
@@ -363,33 +359,31 @@ img {
 }
 
 @keyframes instruction {
-    0% {
-      background-color: #FFFFFF;
-    }
-    5% {
-      background-color: #FFFAFA;
-    }
-    10% {
-      background-color: #F0FFF0;
-    }
-    25% {
-      background-color: #F5FFFA;
-    }
-    50% {
-      background-color: #F0FFFF;
-    }
-    65% {
-      background-color: #FFF0F5;
-    }
-    70% {
-      background-color:	#F8F8FF;
-    }
-    100% {
-      background-color: #FFF5EE;
-    }
+  0% {
+    background-color: #ffffff;
+  }
+  5% {
+    background-color: #fffafa;
+  }
+  10% {
+    background-color: #f0fff0;
+  }
+  25% {
+    background-color: #f5fffa;
+  }
+  50% {
+    background-color: #f0ffff;
+  }
+  65% {
+    background-color: #fff0f5;
+  }
+  70% {
+    background-color: #f8f8ff;
+  }
+  100% {
+    background-color: #fff5ee;
+  }
 }
-
-
 
 /* _______________Main Col styling______________*/
 
@@ -404,17 +398,3 @@ img {
   border: 1em;
   border-style: inset;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

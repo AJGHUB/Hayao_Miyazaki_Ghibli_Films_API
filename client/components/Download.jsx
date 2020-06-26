@@ -1,53 +1,44 @@
-import React from 'react'
+import React from 'react';
 
-import DownloadItem from './DownloadItem'
+import DownloadItem from './DownloadItem';
 
 class Download extends React.Component {
   state = {
     images: [
-      {name: "arietty1" ,
-      url: "/images/arietty1.jpg"},
-      {name: "chihiro1" ,
-      url: "/images/chihiro1.jpg"},
-      {name: "cittàIncantata" ,
-      url: "/images/cittàIncantata.jpg"},
-      {name: "ghilbli" ,
-      url: "/images/ghibli.jpg"},
-      {name: "howl1" ,
-      url: "/images/howl1.jpg"},
-      {name: "kaguya1" ,
-      url: "/images/kaguya1.jpg"},
-      {name: "laputa1" ,
-      url: "/images/laputa1.jpg"},
-      {name: "mononoke" ,
-      url: "/images/mononoke.jpg"},
-      {name: "mononoke1" ,
-      url: "/images/mononoke1.jpg"},
-      {name: "nausicaa" ,
-      url: "/images/nausicaa.jpg"},
-      {name: "nausicaa1" ,
-      url: "/images/nausicaa1.jpg"},
-      {name: "ponyo1" ,
-      url: "/images/ponyo1.jpg"},
-      {name: "terramare" ,
-      url: "/images/terramare.jpg"},
-      {name: "totoro" ,
-      url: "/images/totoro.jpg"}
-    ]
-  }
+      { name: 'arietty1', url: '/images/arietty1.jpg' },
+      { name: 'chihiro1', url: '/images/chihiro1.jpg' },
+      { name: 'cittàIncantata', url: '/images/cittàIncantata.jpg' },
+      { name: 'ghilbli', url: '/images/ghibli.jpg' },
+      { name: 'howl1', url: '/images/howl1.jpg' },
+      { name: 'kaguya1', url: '/images/kaguya1.jpg' },
+      { name: 'laputa1', url: '/images/laputa1.jpg' },
+      { name: 'mononoke', url: '/images/mononoke.jpg' },
+      { name: 'mononoke1', url: '/images/mononoke1.jpg' },
+      { name: 'nausicaa', url: '/images/nausicaa.jpg' },
+      { name: 'nausicaa1', url: '/images/nausicaa1.jpg' },
+      { name: 'ponyo1', url: '/images/ponyo1.jpg' },
+      { name: 'terramare', url: '/images/terramare.jpg' },
+      { name: 'totoro', url: '/images/totoro.jpg' },
+    ],
+  };
 
-  render(){
+  render() {
     return (
       <>
-        <div className="instruction">
-          Download your favourite Ghibli Wallpaper here on Click and upload as your screensaver or screen call backdrop.
+        <div className='instruction'>
+          Download your favourite Ghibli Wallpaper here on Click and upload as
+          your screensaver or screen call backdrop.
         </div>
-        <div className="download-container">
-          {this.state.images.map(anImage => <DownloadItem details={anImage}/>)}
+        <div className='download-container'>
+          {this.state.images.map((anImage) => (
+            <DownloadItem details={anImage} />
+          ))}
         </div>
       </>
-    )
+    );
   }
 }
 
-export default Download
+export default Download;
+
+//ADD MORE POSTERS downloads here https://www.boredpanda.com/download-free-studio-ghibli-wallpapers-miyazaki-anime/?utm_source=google&utm_medium=organic&utm_campaign=organic

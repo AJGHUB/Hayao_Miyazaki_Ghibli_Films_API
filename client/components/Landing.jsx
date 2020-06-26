@@ -10,18 +10,23 @@ export const Landing = () => {
           <h3>Ghibli Fan Links</h3>
           <p>
             <Link to='http://www.ghibli.jp/' target='_blank'>
-              The Ghibli Studio 
-            <img className='ghibli-totoro' src='/images/ghibli.png'/>
+              The Ghibli Studio
+              <img className='ghibli-totoro' src='/images/ghibli.png' />
             </Link>
           </p>
           <p>
-            <Link to='http://www.openculture.com/2020/05/a-virtual-tour-inside-the-hayao-miyazakis-studio-ghibli-museum.html' target='_blank'>
+            <Link
+              to='http://www.openculture.com/2020/05/a-virtual-tour-inside-the-hayao-miyazakis-studio-ghibli-museum.html'
+              target='_blank'
+            >
               Ghibli Virtual Tour Museum
             </Link>
           </p>
           <p>
-            <Link to='https://ghibli.fandom.com/wiki/Ghibli_Wiki'
-              target='_blank'>
+            <Link
+              to='https://ghibli.fandom.com/wiki/Ghibli_Wiki'
+              target='_blank'
+            >
               Ghibli wiki
             </Link>
           </p>
@@ -44,7 +49,15 @@ export const Landing = () => {
         <div className='landing-col-3'>
           <h3 className='heading2'>Movies</h3>
           <Link to='/movie'>
-          <iframe className='ghibli-movie' width="560" height="315" src="https://www.youtube.com/embed/8HGjm0Sk8tk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              className='ghibli-movie'
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/8HGjm0Sk8tk'
+              frameBorder='0'
+              allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen
+            ></iframe>
           </Link>
         </div>
       </main>

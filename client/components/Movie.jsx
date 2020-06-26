@@ -31,8 +31,8 @@ class Movie extends React.Component {
         <>
          <main className='flex-grid'>
             <aside className="side-col">
-              <h1>Studio Ghibli Films</h1>
-                <ul className="details">
+              <h1 className='film-heading'>Ghibli Films</h1>
+                <ul className='details'>
                    {this.state.ghibli.map((ghibli) => {
                     return <Ghibli key={ghibli.id} data={ghibli} />
                     })}

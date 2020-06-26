@@ -7,7 +7,7 @@ class Ghibli extends React.Component {
     const ghibli = this.props.data
     
     return (
-      <div className="filmName">
+      <div className='film-name'>
          <li><Link to={`/movie/description/${ghibli.id}`}>{ghibli.title}</Link></li>
       </div>
     )

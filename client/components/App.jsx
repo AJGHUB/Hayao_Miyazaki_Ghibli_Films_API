@@ -1,38 +1,27 @@
-import React from 'react'
+import React from 'react';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import Landing from './Landing';
 import Movie from './Movie';
 import Download from './Download';
+import Nav from './Nav';
+import Fan from './Fan';
 
-
-//const App = () =>
-{/* <Fragment>
-  <Navbar/>
-  <Landing/>
-</Fragment> */}
 
 class App extends React.Component {
-
   render() {
-    // console.log(this.state.ghibli)
-    return ( 
-     <Router>
-      <header >
-      <h1> Hayao Miyazaki </h1> <img src = "/Studio_Ghibli_logo.svg"/>
-      </header>
-      <div >
-      <main className = "flex-grid" >
-      <Route exact path = "/" component = { Landing} />
-      <Route path = "/movie" component = { Movie } /> 
-      <Route path = "/download" component = { Download }/> 
-      </main>  
-      </div> 
+    return (
+      <Router>
+        <Route path='/' component={Nav} />
+        <Route exact path='/' component={Landing} />
+        <Route path='/movie' component={Movie} />
+        <Route path='/download' component={Download} />
+        <Route path='/fan' component={Fan} />
       </Router>
-    )
+    );
   }
 }
 
-export default App
+export default App;
 
 //TODO LINKS
 //http://www.ghibli.jp/

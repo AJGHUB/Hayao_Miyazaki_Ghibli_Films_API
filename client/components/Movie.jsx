@@ -29,6 +29,7 @@ class Movie extends React.Component {
     // console.log(this.state.ghibli)
     return (
         <>
+         <main className='flex-grid'>
             <aside className="side-col">
               <h1>Studio Ghibli Films</h1>
                 <ul className="details">
@@ -42,6 +43,7 @@ class Movie extends React.Component {
                 <Route path='/movie/description/:id' render={(props) => (
                 <Description {...props} data={this.state.ghibli} />)}/>
             </section>
+            </main>
         </>
     )
   }

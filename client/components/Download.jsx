@@ -40,7 +40,7 @@ class Download extends React.Component {
     return (
       <>
         <div className="instruction">
-          this is how you do
+          Download your favourite Ghibli Wallpaper here on Click and upload as your screensaver or screen call backdrop.
         </div>
         <div className="download-container">
           {this.state.images.map(anImage => <DownloadItem details={anImage}/>)}

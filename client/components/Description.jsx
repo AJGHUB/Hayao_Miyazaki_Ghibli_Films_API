@@ -114,19 +114,19 @@ class Description extends React.Component {
     const src = trailer.find(movieTrailer => movieData.id == movieTrailer.id).src
 
     return (
-      <>
-        <h2>{ movieData.name }</h2>
-        <h2>{ movieData.title }</h2>
+
+      <div className='movie-data'>
+        <h1>{ movieData.name }</h1>
+        <h2 className='movie-title'>{ movieData.title }</h2>
         <h3>Directed by { movieData.director }</h3>
         <h3>Produced by { movieData.producer }</h3>
         <h3>Release date: { movieData.release_date }</h3>
         <h3>Rotten Tomatoes Score: { movieData.rt_score }</h3>
         <h2>Ghibli Movie Description</h2>
         <p>{ movieData.description }</p>
-        <h2>Movie Trailer</h2>
-        <iframe width="560" height="315" src={src} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        
-      </>
+        <h1>Movie Trailer</h1>
+        <iframe className='trailer' width="560" height="315" src={src} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>   
+      </div>
     )
   }
 

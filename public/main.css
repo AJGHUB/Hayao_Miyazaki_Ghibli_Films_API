@@ -16,7 +16,7 @@ body {
 .main-col {
   font-family: 'Dosis', sans-serif;
   flex: 1;
-  background-color: lightseagreen;
+  background-color: rgb(79, 180, 177);
   padding: 10px;
   border-radius: 25px;
   width: 5%;
@@ -36,7 +36,7 @@ body {
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #f0ffff;
+  background-color: #c2c3ce96;
   animation-name: col;
   animation-duration: 8s;
 }
@@ -44,9 +44,14 @@ body {
 
 /*col 1 link styles */
 
+.col-font {
+  font: white;
+}
+
 .ghibli-totoro {
   height: 100px;
   width: 100px;
+  background-color: ghostwhite;
 }
 .map {
   width: 250px;
@@ -67,47 +72,47 @@ body {
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #f0ffff;
+  background-color: #4040ce9f;
   animation-name: col;
   animation-duration: 8s;
 }
 
 .landing-col-3 {
   flex: 1;
-  width: 600px;
+  width: 700px;
   height: 550px;
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
-  background-color: #f0ffff;
+  background-color: #2b9da59a;
   animation-name: col;
   animation-duration: 8s;
 }
 
 @keyframes col {
   0% {
-    background-color: #ffffff;
+    background-color: #d1f0bc9d;
   }
   5% {
-    background-color: #fffafa;
+    background-color: #52ac36a2;
   }
   10% {
-    background-color: #f0fff0;
+    background-color: #509950a8;
   }
   25% {
-    background-color: #f5fffa;
+    background-color: #275f2094;
   }
   50% {
-    background-color: #f0ffff;
+    background-color: #093b2293;
   }
   65% {
-    background-color: #fff0f5;
+    background-color: #0b0c4b96;
   }
   70% {
-    background-color: #f8f8ff;
+    background-color: #4040ce9f;
   }
   100% {
-    background-color: #fff5ee;
+    background-color: #2b9da59a;
   }
 }
 
@@ -264,8 +269,9 @@ header {
 }
 
 .home-icon {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: peachpuff;
 }
 
 /*_______________________________Movie____________*/
@@ -301,6 +307,7 @@ img {
 }
 
 .ghibli-movie {
+  padding-top: 50px;
 }
 /* __________________________Download Page ______________ */
 

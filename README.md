@@ -9,8 +9,8 @@ This oroject uses a React development boiler plate forked from Enspiral Dev Acad
 
 To view this site check out the live deployed heroku site at (insert link here). Alternitivly to run this on your own machine please download the repo and use the following commands:
 
-npm i
-npm run dev 
+- npm i
+- npm run dev 
 
 Then navigate to <http://localhost:3000>
 

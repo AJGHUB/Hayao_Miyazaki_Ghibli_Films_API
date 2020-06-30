@@ -56,7 +56,7 @@ export const Landing = () => {
               src='https://www.youtube.com/embed/8HGjm0Sk8tk'
               frameBorder='0'
               allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </Link>
         </div>

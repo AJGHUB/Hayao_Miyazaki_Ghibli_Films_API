@@ -2,7 +2,7 @@
 
 This project is based around an API <https://ghibliapi.herokuapp.com/films> that displays Studio Ghibli Film List By Hayao Miyazaki,  as well as sourcing the official trailers from youtube to be displayed on this site. The user can download posters for their screens and explore fan links to Ghibli.
 
-This project was created by Alice Jowsey & Boyd Thurston during the 2020 Lockdown 
+This project was created by Alice Jowsey & Boyd Thurston during the 2020 Lockdown with New Zealand EDA Enspiral Academy premiere bootcamp.
 
 This project uses a React development boilerplate forked from Enspiral Dev Academy. 
 

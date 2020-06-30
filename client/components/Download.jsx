@@ -34,11 +34,14 @@ class Download extends React.Component {
             <DownloadItem details={anImage} />
           ))}
         </div>
+        <div className='instruction'>
+          <p>
+            more posters can be download at <a href='https://www.boredpanda.com/download-free-studio-ghibli-wallpapers-miyazaki-anime/?utm_source=google&utm_medium=organic&utm_campaign=organic' target='_blank'>boredpanda</a>
+          </p>
+        </div>
       </>
     );
   }
 }
 
 export default Download;
-
-//ADD MORE POSTERS downloads here https://www.boredpanda.com/download-free-studio-ghibli-wallpapers-miyazaki-anime/?utm_source=google&utm_medium=organic&utm_campaign=organic

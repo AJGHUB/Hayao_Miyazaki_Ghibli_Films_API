@@ -1,10 +1,21 @@
+# Studio Ghibli Film API project
 
+This project is based around an API <https://ghibliapi.herokuapp.com/films> that displays Studio Ghibli Film List By Hayao Miyazaki as well as sourcing the official trailers from youtube to be displayed on this site
 
-<h1> API that displays Studio Ghibli Film List By Hayao Miyazaki</h1> <br>
-<br>
-<h2> Project created by Boyd Wilson & Alice Jowsey 2020 Lockdown </h2>
-<br>
-<h3> React API boiler plate forked from Enspiral Dev Academy </h3>
+This project was created by Alice Jowsey & Boyd Thurston during the 2020 Lockdown 
 
-npm run start 
-npm run dev 
+This project uses a React development boilerplate forked from Enspiral Dev Academy. 
+
+To view this site check out the live deployed heroku site at (insert link here). Alternatively to run this on your own machine please download the repo and use the following commands:
+
+- npm i
+- npm run dev 
+
+Then navigate to <http://localhost:3000>
+
+## Technologies Used
+
+- Express.js
+- Webpack.js
+- React.js
+- Babel

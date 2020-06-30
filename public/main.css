@@ -1,5 +1,5 @@
 body {
-  cursor: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54da91e0-f7ed-4d0f-a829-9a76dfa376c4/d968uqu-6a5e5268-0593-4afc-b46c-3b6344204db9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTRkYTkxZTAtZjdlZC00ZDBmLWE4MjktOWE3NmRmYTM3NmM0XC9kOTY4dXF1LTZhNWU1MjY4LTA1OTMtNGFmYy1iNDZjLTNiNjM0NDIwNGRiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.dhfbDyoqZP1Hbky2IQBRyfZkhrJTaiRxZj1eY4Z5XTE'),
+  /* cursor: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54da91e0-f7ed-4d0f-a829-9a76dfa376c4/d968uqu-6a5e5268-0593-4afc-b46c-3b6344204db9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTRkYTkxZTAtZjdlZC00ZDBmLWE4MjktOWE3NmRmYTM3NmM0XC9kOTY4dXF1LTZhNWU1MjY4LTA1OTMtNGFmYy1iNDZjLTNiNjM0NDIwNGRiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.dhfbDyoqZP1Hbky2IQBRyfZkhrJTaiRxZj1eY4Z5XTE'), */
     auto;
 }
 
@@ -30,8 +30,8 @@ body {
 
 .landing-col-1 {
   flex: 1;
-  width: 400px;
-  height: 500px;
+  width: 450px;
+  height: 550px;
   justify-content: space-around;
   margin: 5rem;
   border-radius: 10px;
@@ -41,15 +41,29 @@ body {
   animation-duration: 8s;
 }
 
+
+/*col 1 link styles */
+
 .ghibli-totoro {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
+}
+.map {
+  width: 250px;
+  padding: 5px;
+}
+.wiki {
+  background-color: deepskyblue;
+  width: 200px
+}
+.gkids {
+  width: 90px;
 }
 
 .landing-col-2 {
   flex: 1;
   width: 400px;
-  height: 500px;
+  height: 550px;
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
@@ -61,7 +75,7 @@ body {
 .landing-col-3 {
   flex: 1;
   width: 600px;
-  height: 500px;
+  height: 550px;
   margin: 5rem;
   border-radius: 10px;
   border-style: groove;
@@ -402,5 +416,5 @@ img {
 /* _______ pointer _______ */
 
 * {
-    cursor: url(https://vignette.wikia.nocookie.net/studio-ghibli/images/4/49/Cursor1.png),pointer ;
+    cursor: url("https://vignette.wikia.nocookie.net/studio-ghibli/images/4/49/Cursor1.png"),pointer ;
 }

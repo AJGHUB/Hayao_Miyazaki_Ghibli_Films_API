@@ -20,6 +20,7 @@ export const Landing = () => {
               target='_blank'
             >
               Ghibli Virtual Tour Museum
+              <img className='map' src='/images/map.png' />
             </a>
           </p>
           <p>
@@ -27,12 +28,14 @@ export const Landing = () => {
               href='https://ghibli.fandom.com/wiki/Ghibli_Wiki'
               target='_blank'
             >
-              Ghibli wiki
+              Ghibli Wiki
+              <img className='wiki' src='/images/wiki.png' />
             </a>
           </p>
           <p>
             <a target='_blank' href='https://gkids.com/films/'>
-              ghibli films
+              Ghibli Films
+              <img className='gkids' src='/images/gkids.png' />
             </a>
           </p>
         </div>

@@ -9,31 +9,31 @@ export const Landing = () => {
         <div className='landing-col-1'>
           <h3>Ghibli Fan Links</h3>
           <p>
-            <Link to='http://www.ghibli.jp/' target='_blank'>
+            <a href='http://www.ghibli.jp/' target='_blank'>
               The Ghibli Studio
               <img className='ghibli-totoro' src='/images/ghibli.png' />
-            </Link>
+            </a>
           </p>
           <p>
-            <Link
-              to='http://www.openculture.com/2020/05/a-virtual-tour-inside-the-hayao-miyazakis-studio-ghibli-museum.html'
+            <a
+              href='http://www.openculture.com/2020/05/a-virtual-tour-inside-the-hayao-miyazakis-studio-ghibli-museum.html'
               target='_blank'
             >
               Ghibli Virtual Tour Museum
-            </Link>
+            </a>
           </p>
           <p>
-            <Link
-              to='https://ghibli.fandom.com/wiki/Ghibli_Wiki'
+            <a
+              href='https://ghibli.fandom.com/wiki/Ghibli_Wiki'
               target='_blank'
             >
               Ghibli wiki
-            </Link>
+            </a>
           </p>
           <p>
-            <Link to='_blank' href='https://gkids.com/films/'>
+            <a target='_blank' href='https://gkids.com/films/'>
               ghibli films
-            </Link>
+            </a>
           </p>
         </div>
         <div className='landing-col-2'>

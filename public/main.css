@@ -398,3 +398,12 @@ img {
   border: 1em;
   border-style: inset;
 }
+
+/* pointer */
+/*
+
+* {
+    cursor: url(https://vignette.wikia.nocookie.net/studio-ghibli/images/4/49/Cursor1.png),pointer !important;
+}
+ 
+*/

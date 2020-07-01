@@ -416,6 +416,7 @@ img {
 }
 
 .img-gif {
+  margin-top: 20px;
   border: 1em;
   border-style: inset;
 }

@@ -41,7 +41,7 @@ export const Landing = () => {
           <p>
             <a target='_blank' href='https://gkids.com/films/'>
               Ghibli Films
-              <img className='gkids' src='/images/gkids.png' />
+              <img className='gkids' src='/images/gkids.PNG' />
             </a>
           </p>
         </div>

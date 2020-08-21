@@ -5,12 +5,13 @@ body {
 
 .flex-grid {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   font-family: 'Dosis', sans-serif;
   background-image: url('./StarfallLake.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  justify-content: space-around;
 }
 
 .main-col {
